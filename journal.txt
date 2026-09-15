@@ -1,0 +1,24 @@
+The first step now is :
+
+Clearly define the problem and its requirements.
+
+The problem is to : I have a grammatically incorrect sentence in French, I want to correct it while preserving its original meaning. 
+
+-> The requirements are defined by : What should my corrector do and what it shouldn't.
+
+Let's start with an example :
+
+
+Les enfants aime le football.
+
+The correct answer is : Les enfants aiment le football.
+
+It can be defined as a mathematical function : f : Incorrect -> Correct.
+
+We can define the following scope : Correct grammatical errors in a single French sentence while preserving its meaning. If the sentence is already grammatically correct, leave it unchanged.
+
+-> The second requirements is : what is the types of errors that we can handle in the first prototype?
+
+This needs a research on the French grammatical error categories. The goal is to define a subset of errors that we will try to fix first in the first prototype. But, before let's see if some work is already done, for example a GEC dataset that's already published.
+
+F
