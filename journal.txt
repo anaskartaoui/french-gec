@@ -21,4 +21,15 @@ We can define the following scope : Correct grammatical errors in a single Frenc
 
 This needs a research on the French grammatical error categories. The goal is to define a subset of errors that we will try to fix first in the first prototype. But, before let's see if some work is already done, for example a GEC dataset that's already published.
 
-F
+Should we start by looking for the error and marking it in the sentence?
+Or directly try to correct it?
+
+The logical flow is to try to find first the error and then correct it. This is because if we can identify the error, we can apply a correction function to it.
+
+So the first step that I choosed is to **generate the correct sentence**. This is because if we can generate the correct sentence, we can then compare it to the original sentence and identify the error.
+
+**TODO**
+
+What is transfer learning and how can we use it in our project?
+What is a Seq2Seq model and how can we use it in our project?
+Can a french-pretrained denoising seq2seq model be effectively fine-tuned for french GEC (BARThez)?
